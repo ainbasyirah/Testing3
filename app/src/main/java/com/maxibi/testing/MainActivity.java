@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         listView = (ListView)findViewById(R.id.listView);
         buttonSearch = (Button)findViewById(R.id.searchButton);
         editText = (EditText) findViewById(R.id.editText);

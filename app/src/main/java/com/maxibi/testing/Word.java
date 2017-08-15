@@ -12,4 +12,7 @@ public class Word {
         this.bm = bm;
         this.bi = bi;
     }
+
+    public String getBm () {return bm; }
+    public String getBi () {return bi; }
 }
